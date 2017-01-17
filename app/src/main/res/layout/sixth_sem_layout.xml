@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <Button
+        android:id="@+id/dc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Communication"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/embeddedSystems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Embedded Systems"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/oose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OOSE"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/simulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulation and Modeling"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/advance_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advance Java"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

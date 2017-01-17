@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/fileuploadid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_light"
+            android:layout_weight="1.0"
+            android:src="@drawable/upload"
+            android:scaleType = "fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/studymaterialid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light"
+            android:layout_weight="1.0"
+            android:src="@drawable/studymaterial"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/discussionforumid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:layout_weight="1.0"
+            android:src="@drawable/discussionforum"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/feedbackid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:src="@drawable/feedback"
+            android:layout_weight="1.0"
+            android:scaleType="fitXY"
+             />
+
+    </LinearLayout>
+</LinearLayout>
